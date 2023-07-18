@@ -454,19 +454,16 @@ a:active {
     transform: scale(2);
     cursor: pointer;
 }
-.wrap{
-    margin-top: 10%;
-    height: 25rem;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
-}
-    .footer{
+.footer{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25%;
-    padding: 50px;
+    margin-top: 10%;
+    height: 25rem;
     color: white;
     font-size: 25px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
 }
 .footer_a{
     width:30%;
@@ -478,15 +475,12 @@ a:active {
 }
 .footer_a #just_me{
     margin-left: 42px;
-}
-.footer_a #mail{
+} 
+#em{
     text-decoration: none;
 }
 .footer_b{
     width:30%;
-    /* margin-top: -20px; */
-    /* border: 1px solid red; */
-    /* margin: 10%; */
 }
 .footer_b p{
     margin-top: 25px;
