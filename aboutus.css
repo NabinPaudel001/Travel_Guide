@@ -27,7 +27,7 @@
 }
 .container{
     border-radius: 15px;
-    margin-right: 0;
+    margin-right: 10px;
     width: 560px;
     height: 300px;
     float: left;
@@ -45,11 +45,13 @@
     padding-bottom: 30px;
     padding-top: 30px ;
     position: relative;
+    margin-left: 20px;
 }
 #id{
 font-weight: lighter;
 font-size: 18px;
-margin:3px;
+padding-left: 20px;
+padding-right: 20px;
 
 }
 #di{
@@ -59,8 +61,7 @@ margin:3px;
    
 }
 .contain{
-    margin:5px;
-    padding-left:8px;
+
  
    
 }

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&family=Lato:ital,wght@1,300&family=Ysabeau+SC&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .book-container {}
+        .a ul {
+            border: 1px solid black;
+            list-style: none;
+        }
+
+        .service {
+            text-decoration: none;
+            display: flex;
+
+        }
+
+        .service a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .book-service {
+            padding: 20px;
+            font-size: 20px;
+
+        }
+
+        .find {
+            
+            border-radius: 10px;
+            width: 67%;
+            margin-left: 300px;
+            height: 300px;
+            background-color: white;
+        }
+
+        .bgimg {
+            background-image: url(island.jpg);
+            height: 350px;
+            background-size: contain;
+            text-align: center;
+            font-size: 50px;
+            padding-top: 30px;
+            color: white;
+        }
+
+        .find-d {
+            height: 300px;
+            background-color: white;
+            width: 70%;
+            margin-top: -180px;
+            border-radius: 20px;
+            box-shadow: 5px 10px 18px #c1c0c0;
+
+        }
+
+        .find-dd {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            font-size: 25px;
+            width: 50%;
+            justify-content: center;
+            padding: 15px 0px;
+            transform: translateY(-30px);
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 10px 18px #c1c0c0;
+
+        }
+
+        .place {
+            width: 90%;
+            height: 20%;
+            font-size: 30px;
+            padding-left: 50px;
+            margin-left: -20px;
+        }
+
+        .cont {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .date {
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 8px 8px #dedcdc;
+            width: 44.5%;
+            display: flex;
+            justify-content: center;
+
+        }
+        .D1,.D2{
+            width: 50%;
+            padding: 15px 0px;
+            color: black;
+        }
+        .D1{
+            border-right: 1px solid black;
+        }
+    #x{
+        font-size: 30px;
+    }
+    .date1{
+            margin-top: 20px;
+            width: 44.5%;
+            display: flex;
+            border-radius: 10px;
+            box-shadow: 5px 8px 8px #dedcdc;
+
+    }
+    .butt{
+        background-color: rgb(91, 151, 219);
+        height: 80px;
+        width: 30%;
+        font-size: 30px;
+        transform: translateY(-45px);
+        border-radius: 20px;
+        border: none;
+        color: white;
+            box-shadow: 5px 8px 10px #c1c0c0;
+    }
+    .u{
+        margin-top: 40px;
+        font-family: "Avenir Next",Helvetica,Arial,sans-serif;
+        margin-left: 185px;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    .visit{
+        height: 700px;
+        width: 80%;
+        
+    }
+    .up{
+        height: 50%;
+        display: flex;
+        gap:25px ;
+        
+    }
+    .down{
+        gap:2%;
+        height: 50%;
+
+        display: flex;
+    }
+    .in{
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 49.4%;
+        text-align: left;
+        font-size: 40px;
+        color: white;
+        box-shadow: 5px 10px 18px #4e4c4c;
+    }
+    .out {
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 25px;
+        text-align: left;
+        font-size: 40px;
+        color: white;
+        width: 33%;
+        box-shadow: 5px 10px 18px #c1c0c0;
+    }
+    .m{
+        background-image: url(kathmandu.jpeg);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .n{
+        background-image: url(Pokhara1.jpg);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .o{
+        background-image: url(chitwan.webp);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .p{
+        background-image: url(Ghandruk.webp);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .q{
+        background-image: url(everest.jpg);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .bgimg p{
+        margin-top: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="book-container">
+        
+        <!-- <div class="a">
+            <ul class="service">
+                <li class="book-service"><a href="#"><i class="fa-sharp fa-solid fa-hotel"></i> Hotels</a></li>
+                <li class="book-service"><a href="#"><i class="fas fa-house-user" style='font-size:20px'></i>
+                        Homestay</a></li>
+                <li class="book-service"><a href="#"><i class="fa-solid fa-taxi" style="color: #3c609f;"></i> Call
+                        Taxis</a></li>
+                <li class="book-service"><a href="#"><i class="fas fa-hiking" style='font-size:20px'></i> Guides</a>
+                </li>
+
+            </ul>
+
+        </div> -->
+        
+        <div class="explore">
+            <section class="bgimg">
+               <p> Explore Beyond limits</p>
+            </section>
+            <center>
+                <div class="find-d">
+                    <div class="find-dd">
+                        <li>Hotel and Homestay
+                        </li>
+                        <li>Private Stays</li>
+                        <li>Long Stays</li>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass" style=" font-size: 25px;transform: translateX(25px);"></i>
+                    <input type="text" name="" class="place" value="Kathmandu" placeholder= "Enter Destination or property" style="border-radius: 10px;
+                    box-shadow: 5px 8px 8px #dedcdc; border: none;">
+                    <div class="cont">
+                        <div class="date">
+                            <div class="D1">
+                                <input type="date" name="" id="x" style="border: none;">
+                            </div>
+                            <div class="D2">
+                                <input type="date" name="" id="x" style="border: none;">
+                            </div>
+                        </div>
+                        <div class="date1">
+                            <i class="fa-solid fa-user-group" style="font-size: 30px; padding-top: 20px; margin-left: 10px; margin-right: 5px;"></i>
+                            <select name="" id="x" style="width: 91%; border: none;">
+                                <option value="">Adults</option>
+                                <option value="">Child</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button class="butt">Search</button>
+            </center>
+            
+        </div>
+    </div>
+    <section class="u"><h1>Trending destinations</h1>
+        <p>Most popular choices for travelers from Nepal</p>
+    </section>
+<center>
+<div class="visit">
+    <div class="up">
+        <div class="in m">Kathmandu</div>
+        <div class="in n">Pokhara</div>
+    </div>
+    <div class="down">
+        <div class="out o">Chitwan</div>
+        <div class="out p">Ghandruk</div>
+        <div class="out q">Everest</div>
+    </div>
+</div>
+</center>
+
+    <div class="footer">
+        <div class="footer_a">
+            <i class="fa-solid fa-location-dot"></i> <b>32 street Koteshwor<br> </b><b
+                id="just_me">Kathmandu,Nepal</b><br><br>
+            <i class="fa-solid fa-phone"></i><b>+977-9765565872</b> <br><br>
+            <i class="fa-solid fa-envelope"></i><b id="mail"><a href="mailto:sanjibshah007@gmail.com">support@travelnepal.com</a></b>
+        </div>
+        <div class="footer_b">
+            <h3>About the company</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla molestias placeat dolore, ex
+                ipsum
+                atque
+                minus natus rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati hic dolor tempore eos
+                earum. Velit vitae doloremque ducimus impedit sit! </ratione>
+            </p>
+            <div class="icon"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
