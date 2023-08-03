@@ -62,10 +62,12 @@ display: flexbox;
     color:gray;
    
 }
+#di:hover{
+    color: rgb(91, 122, 28);
+}
 .contain{
     margin:5px;
     padding-left:8px;
- 
    
 }
 .news{
@@ -81,6 +83,9 @@ display: flexbox;
     font-size: 38px;
     text-align: center;
     color: gray;
+}
+#h:hover{
+    color: rgb(94, 120, 40);
 }
 #letter{
     padding-bottom: 100px;
@@ -116,14 +121,14 @@ display: flexbox;
 }
 .top {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
     font-family: sans-serif;
-    color: #fff;
-    background: gray;
-    border-radius: 1000px;
+    color: rgb(10, 10, 244);
+    background: rgb(169, 169, 235);
+    border-radius: 100px;
     margin-right: 550px;
     margin-left: 550px;
-    font-size: 25px;
+    font-size: 15px;
   }
   .wrap{
     margin-top: 10%;
