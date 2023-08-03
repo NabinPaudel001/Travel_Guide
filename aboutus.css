@@ -171,15 +171,17 @@ display: flexbox;
     margin-top: 25px;
     gap: 30px;
 }
-.wrap .hori{
+/* .wrap .hori{
     width: 80%;
     margin-left: 10%;
     margin-top: 10px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
 }
 .hori span{
     margin-left: 45%;
     font-size: 20px;
-    color: white;
-}
+    color:white;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+} */
 
 
