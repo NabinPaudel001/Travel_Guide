@@ -186,7 +186,7 @@
   }
   .wrap{
     margin-top: 10%;
-    height: 25rem;
+    height: 200px;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
 }
 .footer{
@@ -244,12 +244,15 @@
     text-decoration: none;
     padding: 20px;
     font-family: sans-serif;
-    color: rgb(10, 10, 244);
-    background: rgb(169, 169, 235);
+    color: rgb(219, 206, 202);
+    background: rgb(219, 101, 17);
     border-radius: 100px;
-    margin-right: 550px;
-    margin-left: 550px;
-    font-size: 15px;
+    margin-top: 200px;
+    margin-left: 1650px; 
+    font-size: 18px;
+    font-weight: 600;
+    transform: translateY(-100px);
+    margin-bottom: -800px;
   }
 
 

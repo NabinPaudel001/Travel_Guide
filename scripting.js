@@ -1,13 +1,15 @@
 
 login.addEventListener('click',() => {
     document.querySelector('.contain_in').classList.add("showoff");
-    document.querySelector('.image').classList.add("blur");
+    document.querySelector('.search').classList.add("hide");
 });
 document.querySelector('.fa-circle-xmark').addEventListener('click',() => {
     document.querySelector('.contain_in').classList.remove("showoff")
+    document.querySelector('.search').classList.remove("hide");
 });
 document.querySelector('.b').addEventListener('click',() => {
     document.querySelector('.contain_in').classList.remove("showoff")
+    document.querySelector('.search').classList.remove("hide");
 });
 function loginshow(){
     document.querySelector('.sign_in').classList.toggle("scrol_login")
