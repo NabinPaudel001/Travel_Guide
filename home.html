@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&family=Lato:ital,wght@1,300&family=Ysabeau+SC&display=swap');
     </style>
@@ -14,68 +15,6 @@
 
 <body>
     <div class="bdy">
-        <div class="log_page">
-            <div class="contain_in">
-                <div class="sign_in">
-                    <form action="">
-                        <i class="fa-sharp fa-solid fa-circle-xmark"></i>
-                        <h2>Login</h2>
-                        <div class="inp">
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text " required>
-                            <label for="">Username</label>
-                        </div>
-                        <div class="inp">
-                            <i class="fa-solid fa-lock"></i>
-                            <input type="password " required>
-                            <label for="">Password</label>
-                        </div>
-                        <div class="check">
-                            <input type="checkbox">
-                            <label for="">Remember me</label>
-                        </div>
-                        <button type="submit" id="btn">Login</button>
-                        <div class="sign_up_link">
-                            <p>Don't have an account?
-                                <a href="#" class="up_link">Sign Up</a>
-                            </p>
-                        </div>
-                    </form>
-                </div>
-                <div class="sign_in">
-                    <form action="">
-                        <i class="fa-sharp fa-solid fa-circle-xmark"></i>
-                        <h2>Sign Up</h2>
-                        <div class="inp">
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text " required>
-                            <label for="">Username</label>
-                        </div>
-                        <div class="inp mail">
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="email" required>
-                            <label for="" >Email</label>
-                        </div>
-                        <div class="inp">
-                            <i class="fa-solid fa-lock"></i>
-                            <input type="password " required>
-                            <label for="">Password</label>
-                        </div>
-                        <div class="check">
-                            <input type="checkbox">
-                            <label for="">I agree to the terms & condition</label>
-                        </div>
-                        <button type="submit" id="btn">Sign Up</button>
-                        <div class="sign_up_link">
-                            <p>Already have an account?
-                                <a href="#" class="up_link">Sign In</a>
-                            </p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
         <nav class="navi">
             <ul>
                 <span id="logo"><img src="graass.png" alt=""></span>
@@ -85,13 +24,72 @@
                 <li><a href="#"><i class="fa-solid fa-cc-visa"></i>Visa Service</a></li>
                 <li><a href="#"><i class="fa-solid fa-money-check-dollar"></i>E-payment</a></li>
                 <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact us</a></li>
-                <li><button id="login">Log in</button></li>
+                <li><button id="login">Register</button></li>
             </ul>
         </nav>
+
+
         <span class="menu"><i class="fa-solid fa-bars"></i></span>
         <div class="below_nav">
+
             <i class="fa-sharp fa-solid fa-backward"></i>
             <div class="image">
+                <div class="log_page">
+                    <div class="contain_in">
+                        <div1 class="sign_up">
+                            <form action="">
+                                <i class="fa-sharp fa-solid fa-circle-xmark "></i>
+                                <h2>Sign Up</h2>
+                                <div class="inp">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text " placeholder="Username" style="font-size: 20px;" required>
+                                </div>
+                                <div class="inp mail">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="email" style="font-size: 20px;"placeholder="Email" required>
+                                </div>
+                                <div class="inp">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="password " placeholder="Password" style="font-size: 20px;" required>
+                                </div>
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <label for="">I agree to the terms & condition</label>
+                                </div>
+                                <button type="submit" id="btn">Sign Up</button>
+                                <div class="sign_up_link">
+                                    <p>Already have an account?
+                                        <span class="in_link" onclick="loginshow()">Sign In</span>
+                                    </p>
+                                </div>
+                            </form>
+                        </div1>
+                        <div1 class="sign_in">
+                            <form action="">
+                                <i class="fa-sharp fa-solid fa-circle-xmark b"></i>
+                                <h2>Login</h2>
+                                <div class="inp">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text " placeholder="Username" style="font-size: 20px;" required>
+                                </div>
+                                <div class="inp">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="password " placeholder="Password" style="font-size: 20px;" required>
+                                </div>
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <label for="">Remember me</label>
+                                </div>
+                                <button type="submit" id="btn">Login</button>
+                                <div class="sign_up_link">
+                                    <p>Don't have an account?
+                                        <span class="up_link" onclick="showsignup()">Sign Up</span>
+                                    </p>
+                                </div>
+                            </form>
+                        </div1>
+                    </div>
+                </div>
                 <div class="search">
                     <input type="text" placeholder="Search...">
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -99,8 +97,12 @@
             </div>
             <i class="fa-sharp fa-solid fa-forward"></i>
         </div>
+
+
+
         <br><br>
-        <h1 style="text-align: center; font-size:5rem;font-family: 'Times New Roman', Times, serif; ">Popular Tours to
+        <h1 style="text-align: center; font-size:5rem;font-family: 'Times New Roman', Times, serif; ">Popular Tours
+            to
             discover</h1>
         <section class="flexbox1">
             <div class="flex_item">
@@ -137,7 +139,8 @@
                 <p>Set at the base of the foothills and surrounded by some of the highest mountains in
                     the world – Dhaulagiri, Manaslu, and Annapurna I – Pokhara is one of Nepal's most scenic cities.
                     For trekkers, Pokhara is the gateway to the Himalayas and the starting point for treks to Jomsom
-                    and the Annapurna region. It's also a wonderful spot to relax for a bit.The Pokhara is best known
+                    and the Annapurna region. It's also a wonderful spot to relax for a bit.The Pokhara is best
+                    known
                     for
                     the stunning view of the Annapurna range.t is perhaps one of the few places on earth from where
                     mountains above 6,000 m
@@ -175,7 +178,8 @@
                 <p>The summit of Mount Everest, reaches 8,848 meters
                     (29,028 feet) high. Trekking in the Mount Everest area became popular following the now
                     legendary first ascent of the peak. There are various routes to access base camp and
-                    several options for organizing a trip.Mount Everest is the highest peak in the world which stands at
+                    several options for organizing a trip.Mount Everest is the highest peak in the world which
+                    stands at
                     8848 m high altitude from sea level.
                 </p>
                 <button class="btm">Visit <span>&rarr;</span></button>
@@ -190,10 +194,13 @@
                     <img src="me-modified.png" alt="sanjib">
                 </div>
                 <h3>Sanjib shah</h3>
-                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime vero
-                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo deleniti
+                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime
+                    vero
+                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo
+                    deleniti
                     quidem cum impedit neque explicabo culpa. Repudiandae aliquid praesentium enim quas voluptate
-                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui rerum
+                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui
+                    rerum
                     pariatur officia molestiae! Sint!</p>
             </div>
             <div class="member">
@@ -201,10 +208,13 @@
                     <img src="nabinhency.png" alt="nabin">
                 </div>
                 <h3>Nabin paudel</h3>
-                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime vero
-                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo deleniti
+                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime
+                    vero
+                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo
+                    deleniti
                     quidem cum impedit neque explicabo culpa. Repudiandae aliquid praesentium enim quas voluptate
-                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui rerum
+                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui
+                    rerum
                     pariatur officia molestiae! Sint!</p>
             </div>
             <div class="member">
@@ -212,10 +222,13 @@
                     <img src="shikshya-modified.png" alt="shikshya">
                 </div>
                 <h3>Shikshya KC</h3>
-                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime vero
-                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo deleniti
+                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime
+                    vero
+                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo
+                    deleniti
                     quidem cum impedit neque explicabo culpa. Repudiandae aliquid praesentium enim quas voluptate
-                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui rerum
+                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui
+                    rerum
                     pariatur officia molestiae! Sint!</p>
             </div>
         </div>
@@ -225,14 +238,16 @@
             <i class="fa-solid fa-location-dot"></i> <b>32 street Koteshwor<br> </b><b
                 id="just_me">Kathmandu,Nepal</b><br><br>
             <i class="fa-solid fa-phone"></i><b>+977-9765565872</b> <br><br>
-            <i class="fa-solid fa-envelope"></i><b id="mail"><a href="mailto:sanjibshah007@gmail.com">support@travelnepal.com</a></b>
+            <i class="fa-solid fa-envelope"></i><b id="mail"><a
+                    href="mailto:sanjibshah007@gmail.com">support@travelnepal.com</a></b>
         </div>
         <div class="footer_b">
             <h3>About the company</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla molestias placeat dolore, ex
                 ipsum
                 atque
-                minus natus rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati hic dolor tempore eos
+                minus natus rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati hic dolor tempore
+                eos
                 earum. Velit vitae doloremque ducimus impedit sit! </ratione>
             </p>
             <div class="icon"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i>
@@ -240,6 +255,7 @@
             </div>
         </div>
     </div>
+    <script src="scripting.js"></script>
 </body>
 
 </html>

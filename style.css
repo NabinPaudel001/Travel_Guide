@@ -3,20 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+.sign_in{
+    transform: translateX(1200px);
+}
+.scrol_login{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(00px);
+}
+.scrol_signup{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-1200px);
+}
+.scrol_signup1{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(00px);
+}
+.intoup{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(1200px);
+}
+
 .log_page{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    border: 1px solid black;
 }
 .contain_in{
     position: relative;
     width: 500px;
     height: 600px;
-    border: 1px solid black;
+    display: none;
 }
-.sign_in,.sign_up{
+    .sign_in,.sign_up{
     position: absolute;
     top: 0;
     left: 0;
@@ -26,8 +45,12 @@
     justify-content: center;
     align-items: center;
     background: white;
-    z-index: 2;
-    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px 1vw black;
+}
+.showoff{
+    position: fixed;
+    display: block;
 }
 .fa-circle-xmark{
     position: absolute;
@@ -38,7 +61,8 @@
     right: 0;
     cursor: pointer;
 }
-.sign_in h2{
+
+.sign_in h2,.sign_up h2{
     margin-bottom: 50px;
     font-size: 45px;
     color: #be2edd;
@@ -109,13 +133,17 @@
     margin-top: 20px;
     font-size: 20px;
 }
+.in_link{
+    color: blue;
+    cursor: pointer;
+}
 .up_link{
-    text-decoration: none;
+    color: blue;
+    cursor: pointer;
 }
 body {
     width: 100%;
     background-image: linear-gradient(103.3deg, rgba(252, 225, 208, 1) 30%, rgba(255, 173, 214, 1) 55.7%, rgba(162, 186, 245, 1) 81.8%);
-    /* font-family: 'Josefin Sans', sans-serif; */
 }
 
 .bdy {
@@ -129,7 +157,6 @@ body {
 }
 
 .image {
-    /* border: 0px solid black; */
     box-shadow: 8px 8px 1vw black;
     height: 50rem;
     width: 80%;
@@ -137,6 +164,9 @@ body {
     background-size: cover;
     float: middle;
     animation: silder 20s infinite linear;
+}
+ .blur > :not(div1){
+    filter: blur(10px);
 }
 
 .fa-backward {
@@ -176,7 +206,6 @@ body {
 }
 
 .navi {
-    /* background-color: green; */
     background-color: #FF3CAC;
 background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 
@@ -188,7 +217,6 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
     top: 0;
     display: flex;
     float: left;
-    /* box-shadow:0 10px 2rem 0 rgba(0, 0, 0, 0.1); */
 }
 
 .navi ul {
@@ -197,19 +225,16 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
     margin-left: 20px;
     list-style: none;
     color: white;
-    /* border: 1px solid black; */
 }
 .navi #login{
     margin-top: -10px;
     font-size: 20px;
-    width: 100px;
-    height: 50px;
     border-radius: 50px;
     background-color: rgb(83, 220, 83);
     border: none;
     box-shadow: 0 5px 5px green;
     transition: 0.1s ease;
-    /* padding: 10px; */
+    padding: 15px 30px;
 }
 .navi #login:active{
     transform: translateY(10px);
@@ -218,8 +243,6 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 .navi ul li {
     font-size: 25px;
     padding: 2vw;
-    /* margin-top: 0.vh; */
-    /* margin-bottom: 12vh; */
 
 }
 #sign_in{
@@ -233,7 +256,6 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
     box-shadow: 0 10px 10px green;
     background-color: rgb(37, 191, 65);
     transition: 0.1s ease;
-    /* cursor: pointer; */
 }
 .navi button:active{
     background-color: #386f07;
@@ -255,13 +277,7 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 .navi ul li a:hover{
     background-color: grey;
     border-radius: 10px;
-    /* transform: scale(1.1); */
     color: orange;
-    /* scale: 1.05; */
-}
-
-a:active {
-    scale: 0.95;
 }
 
 .navi ul .fa-solid {
