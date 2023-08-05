@@ -243,12 +243,12 @@
         </div>
         <div class="footer_b">
             <h3>About the company</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D<ucimus nulla molestias placeat dolore, ex
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla molestias placeat dolore, ex
                 ipsum
                 atque
                 minus natus rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati hic dolor tempore
                 eos
-                earum. Velit vitae doloremque ducimus impedit sit! </ratione>
+                earum. Velit vitae doloremque ducimus impedit sit! 
             </p>
             <div class="icon"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-github"></i>
