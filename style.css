@@ -242,7 +242,7 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
     margin-left: 180px;
 }
 .navi #login:hover{
-    transform: scale(1.2);
+    transform: scale(1.2 );
     transition: all 0.2s ease-out;
     background-color:white;
 }
