@@ -2,17 +2,13 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
-
-=======
    
->>>>>>> 9a271c7561cb0c216feee739afedca3473070553
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&family=Lato:ital,wght@1,300&family=Ysabeau+SC&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">w
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
@@ -23,7 +19,7 @@
         <nav class="navi">
             <ul>
                 <span id="logo"><img src="graass.png" alt=""></span>
-                <li><a href="home.html" target="_self"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="home.php" target="_self"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
                 <li><a href="aboutus.html" target="_blank"><i class="fa-solid fa-users"></i>About us</a></li>
                 <li><a href="booking.html" target="_blank"><i class="fa-solid fa-solid fa-sailboat"></i>Bookings</a></li>
                 <li><a href="epay.html" target="_blank"><i class="fa-solid fa-money-check-dollar"></i>E-payment</a></li>
@@ -41,7 +37,7 @@
                 <div class="log_page">
                     <div class="contain_in">
                         <div1 class="sign_up">
-                            <form action="connect.php" method="post">
+                            <form action="signup.php" method="post">
                                 <i class="fa-sharp fa-solid fa-circle-xmark "></i>
                                 <h2>Sign Up</h2>
                                 <div class="inp">
@@ -50,14 +46,14 @@
                                 </div>
                                 <div class="inp mail">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <input type="email" style="font-size: 20px;"placeholder="Email" name="email" required>
+                                    <input type="email" style="font-size: 20px;"placeholder="Email" name="Email" required>
                                 </div>
                                 <div class="inp">
                                     <i class="fa-solid fa-lock"></i>
                                     <input type="password " placeholder="Password" style="font-size: 20px;" name="password" required>
                                 </div>
                                 <div class="check">
-                                    <input type="checkbox">
+                                    <input type="checkbox" required>
                                     <label for="">I agree to the terms & condition</label>
                                 </div>
                                 <button type="submit" id="btn">Sign Up</button>
@@ -69,22 +65,22 @@
                             </form>
                         </div1>
                         <div1 class="sign_in">
-                            <form action="">
+                            <form action="login.php" method="POST">
                                 <i class="fa-sharp fa-solid fa-circle-xmark b"></i>
                                 <h2>Login</h2>
                                 <div class="inp">
                                     <i class="fa-solid fa-user"></i>
-                                    <input type="text " placeholder="Username" style="font-size: 20px;" required>
+                                    <input type="text " placeholder="Username" name="NAME" style="font-size: 20px;" required>
                                 </div>
                                 <div class="inp">
                                     <i class="fa-solid fa-lock"></i>
-                                    <input type="password " placeholder="Password" style="font-size: 20px;" required>
+                                    <input type="password " placeholder="Password" name="PASS" style="font-size: 20px;" required>
                                 </div>
                                 <div class="check">
-                                    <input type="checkbox">
+                                    <input type="checkbox" >
                                     <label for="">Remember me</label>
                                 </div>
-                                <button type="submit" id="btn">Login</button>
+                                <button type="submit" id="btn" name="submit">Login</button>
                                 <div class="sign_up_link">
                                     <p>Don't have an account?
                                         <span class="up_link" onclick="showsignup()">Sign Up</span>
@@ -243,11 +239,11 @@
                 id="just_me">Kathmandu,Nepal</b><br><br>
             <i class="fa-solid fa-phone"></i><b>+977-9765565872</b> <br><br>
             <i class="fa-solid fa-envelope"></i><b id="mail"><a
-                    href="mailto:sanjibshah007@gmail.com">support@travelnepal.com</a></b>
+                    href="mailto:sanjibshah007@gmail.com" style="text-decoration: none;">support@travelnepal.com</a></b>
         </div>
         <div class="footer_b">
             <h3>About the company</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla molestias placeat dolore, ex
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D<ucimus nulla molestias placeat dolore, ex
                 ipsum
                 atque
                 minus natus rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati hic dolor tempore
