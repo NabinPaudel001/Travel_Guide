@@ -433,7 +433,6 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 }
 .whole{
     margin-top: 9%;
-    font-family: 'Josefin Sans', sans-serif;
 }
 .whole h1{
     margin-top: 5%;
@@ -538,8 +537,23 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
     font-size: 20px;
     color: white;
 }
-
-/* Responsive Design
-@media (max-width: 700px) {
-    .navi ul li {
-        display */
+.fa-angle-up{
+    background-color: rgb(218, 134, 16);
+    padding: 10px;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 40px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+.fa-angle-up:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 5px 5px black;
+}
+.actived{
+    pointer-events: auto;
+    opacity: 1;
+}

@@ -178,3 +178,27 @@
     margin-left: 50px;
     font-size: 40px;
 }
+.fa-angle-up:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 5px 5px black;
+}
+.backed{
+    text-decoration: none;
+    font-size: 29px;
+    position: absolute;
+    right: 0;
+    transform: translateY(180px);
+    margin-right: 40px;
+    background-color: rgb(218, 134, 16);
+    color: black;
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(218, 134, 16);
+    transition: all 0.3s ease;
+}
+.backed:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 5px 5px black;
+}
