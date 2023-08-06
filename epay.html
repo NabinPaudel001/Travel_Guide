@@ -6,21 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            width: 100%;
-            background-image: linear-gradient(103.3deg, rgba(252, 225, 208, 1) 30%, rgba(255, 173, 214, 1) 55.7%, rgba(162, 186, 245, 1) 81.8%);
-        }
-
         * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
-
-
+        body{
+            background-image: linear-gradient(103.3deg, rgba(252, 225, 208, 1) 30%, rgba(255, 173, 214, 1) 55.7%, rgba(162, 186, 245, 1) 81.8%);
+            width: 100%;
+        }
         .contain {
             width: 100%;
-            background-image: linear-gradient(103.3deg, rgba(252, 225, 208, 1) 30%, rgba(255, 173, 214, 1) 55.7%, rgba(162, 186, 245, 1) 81.8%);
             margin-top: 10px;
             box-shadow: 10px 10px 10px 10px grey;
             padding: 40px 0;
@@ -165,7 +161,7 @@
         .logo {
             margin-left: 50px;
             display: flex;
-            gap: 140px;
+            gap: 10%;
         }
 
         .logoes {
@@ -173,6 +169,28 @@
             height: 90px;
             width: 200px;
         }
+        .contain{
+            position: relative;
+        }
+        .backed{
+    text-decoration: none;
+    font-size: 29px;
+    position: absolute;
+    right: 0;
+    transform: translateY(-50px);
+    margin-right: 10px;
+    background-color: rgb(218, 134, 16);
+    color: black;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(218, 134, 16);
+    transition: all 0.3s ease;
+}
+.backed:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 5px 5px black;
+}
     </style>
 </head>
 
@@ -486,6 +504,7 @@
                     alt="Gpay" class="logoes"></a>
         </div>
     </div>
+    <a href="home.php" class="backed">	&larr; Back to Home</a>
 </body>
 
 </html>
