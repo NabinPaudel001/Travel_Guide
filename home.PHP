@@ -190,43 +190,24 @@
                 <div class="mem_image">
                     <img src="me-modified.png" alt="sanjib">
                 </div>
-                <h3>Sanjib shah</h3>
-                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime
-                    vero
-                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo
-                    deleniti
-                    quidem cum impedit neque explicabo culpa. Repudiandae aliquid praesentium enim quas voluptate
-                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui
-                    rerum
-                    pariatur officia molestiae! Sint!</p>
+                <h3>Sanjib Shah Thakuri</h3>
+                <strong><p class="discription">BE.IT- 3<sup>rd</sup> Sem </strong><br> <br>I am currently pursuing a Bachelor's degree in Information Technology (BEIT) at NCIT College.Throughout my academic journey, I have developed a keen interest and proficiency in various programming languages, including C, C++, HTML, CSS, JavaScript. and PHP</p>
+                
             </div>
             <div class="member">
                 <div class="mem_image">
                     <img src="nabinhency.png" alt="nabin">
                 </div>
                 <h3>Nabin paudel</h3>
-                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime
-                    vero
-                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo
-                    deleniti
-                    quidem cum impedit neque explicabo culpa. Repudiandae aliquid praesentium enim quas voluptate
-                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui
-                    rerum
-                    pariatur officia molestiae! Sint!</p>
+                <strong><p class="discription">BE.IT- 3<sup>rd</sup> Sem </strong><br> <br>I am currently pursuing a Bachelor's degree in Information Technology (BEIT) at NCIT College.Throughout my academic journey, I have developed a keen interest and proficiency in various programming languages, including C, C++, HTML, CSS, JavaScript. and PHP</p>
             </div>
             <div class="member">
                 <div class="mem_image">
                     <img src="shikshya-modified.png" alt="shikshya">
                 </div>
                 <h3>Shikshya KC</h3>
-                <p class="discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime
-                    vero
-                    voluptatibus libero totam, veritatis necessitatibus modi, architecto, numquam laborum nemo
-                    deleniti
-                    quidem cum impedit neque explicabo culpa. Repudiandae aliquid praesentium enim quas voluptate
-                    blanditiis distinctio, beatae corporis, ipsa dolore, consectetur accusantium ab molestias qui
-                    rerum
-                    pariatur officia molestiae! Sint!</p>
+                <strong><p class="discription">BE.IT- 3<sup>rd</sup> Sem </strong><br> <br>I am currently pursuing a Bachelor's degree in Information Technology (BEIT) at NCIT College.Throughout my academic journey, I have developed a keen interest and proficiency in various programming languages, including C, C++, HTML, CSS, JavaScript. and PHP</p>
+            
             </div>
         </div>
     </div>
@@ -241,12 +222,7 @@
         </div>
         <div class="footer_b">
             <h3>About the company</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla molestias placeat dolore, ex
-                ipsum
-                atque
-                minus natus rem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati hic dolor tempore
-                eos
-                earum. Velit vitae doloremque ducimus impedit sit! 
+            <p>Our goal is to provide you power to explore beyond the limits. Not only based for foreign travelers the services are totally customized for Nepalese travel enthusiasts.
             </p>
             <div class="icon"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-github"></i>
