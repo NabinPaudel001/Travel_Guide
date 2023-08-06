@@ -97,7 +97,6 @@
             </div>
             <i class="fa-sharp fa-solid fa-forward"></i>
         </div>
-        <i class="fa-solid fa-angle-up"></i>
         <br><br>
         <h1 style="text-align: center; font-size:5rem;font-family: 'Times New Roman', Times, serif; ">Popular Tours
             to
@@ -231,6 +230,7 @@
             </div>
         </div>
     </div>
+    <a href="#"> <i class="fa-solid fa-angle-up"></i></a>
     <div class="footer">
         <div class="footer_a">
             <i class="fa-solid fa-location-dot"></i> <b>32 street Koteshwor<br> </b><b

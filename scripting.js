@@ -19,9 +19,3 @@ function showsignup(){
     document.querySelector('.sign_up').classList.toggle("scrol_signup1")
     document.querySelector('.sign_in').classList.toggle ("intoup")
 }   
-const top=document.querySelector('.fa-angle-up');
-window.addEventListener("scroll",()=>){
-    if(window.page)
-}
-
- 
